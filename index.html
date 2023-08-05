@@ -9,28 +9,30 @@
 <body>
     <!-- nav bars -->
     <header>
-        <img src="./assets/CustomKeyboardzLogos/customKeyboardzLogoBlack.png" alt="Custom Keyboardz Logo" style="height: 100px;">
-        <nav>
-            <ul>
-                <li><a href="#"><img src="./assets/NavIcons/instagramIcon.png" alt="Instagram Icon" style="height: 20px;"></a></li>
-                <li><a href="#"><img src="./assets/NavIcons/facebookIcon.png" alt="Facebook Icon" style="height: 20px;"></a></li>
-                <li><a href="#"><img src="./assets/NavIcons/discordIcon.png" alt="Discord Icon" style="height: 20px;"></a></li>
-                <li><a href="#"><img src="./assets/NavIcons/shoppingCartIcon.png" alt="Shopping Cart Icon" style="height: 20px;"></a></li>
-            </ul>
-        </nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Custom Keyboards</a></li>
-                <li><a href="#">Shop All</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        
+        <img id="custom-keyboards-logo" src="./assets/CustomKeyboardzLogos/customKeyboardzLogoBlack.png" alt="Custom Keyboardz Logo" style="height: 100px;">
+            <nav>
+                <ul id="navMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Custom Keyboards</a></li>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="socialIcons">
+                    <li><a href="#"><img src="./assets/NavIcons/instagramIcon.png" alt="Instagram Icon" style="height: 20px;"></a></li>
+                    <li><a href="#"><img src="./assets/NavIcons/facebookIcon.png" alt="Facebook Icon" style="height: 20px;"></a></li>
+                    <li><a href="#"><img src="./assets/NavIcons/discordIcon.png" alt="Discord Icon" style="height: 20px;"></a></li>
+                    <li><a href="#"><img src="./assets/NavIcons/shoppingCartIcon.png" alt="Shopping Cart Icon" style="height: 20px;"></a></li>
+                </ul>
+            </nav>
     </header>
     <!-- main section -->
     <section class="customKeyboards">
-        <div>
+        <div class="container" id="custom-keyboards-description">
             <h3>You Dream It, We Build It</h3>
             <h1>Custom Keyboards</h1>
+            <p>Find your ideal keyboard from our hand-picked selection or work with one of our keyboard technicians  to create your dream keyboard made to order.</p>
             <ul>
                 <li>Consult an Expert</li>
                 <li>Pick your board</li>
@@ -39,14 +41,15 @@
                 <li>Request sound mods</li>
                 <li>Custom Cables to match your build</li>
             </ul>
+            <button>Explore Now</button>
         </div>
-        <button>Explore Now</button>
+        
     </section>
 
     <!-- Custom Cables -->
 
     <section class="customCables">
-        <div class="description-cables">
+        <div class="container" id="description-cables">
             <h3>Discover The Collection</h3>
             <h1>Custom Cables</h1>
             <p>Take your setup to the next level with these custom made Aviator connector</p>
@@ -59,34 +62,34 @@
                 <li>Double-Sleeved with Paracord and PET</li>
             </ul>
         </div>
-        <div class="products-cables">
+        <div class="products">
             <div class="panel">
                 <img src="./assets/CableProducts/aquaCable.jpg" alt="" style="height: 250px; width: 250px;">
                 <h4>Aqua Cable</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/CableProducts/pinkCable.webp" alt="" style="height: 250px; width: 250px;">
                 <h4>Pink Cable</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/CableProducts/redCable.webp" alt="" style="height: 250px; width: 250px;">
                 <h4>Red Cable</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/CableProducts/whiteCable.webp" alt="" style="height: 250px; width: 250px;">
                 <h4>White Cable</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
         </div>
     </section>
 
     <!-- KeyCaps -->
 
-    <section>
-        <div class="descripton-keycaps">
+    <section class="artisan-keycaps">
+        <div class="container" id="description-keycaps">
             <h3>Stylize Your Keyboards</h3>
             <h1>Artisan Keycaps</h1>
             <p>Select from our collection of keycaps made in house or from one of our many skilled partners.</p>
@@ -99,34 +102,34 @@
                 <li>Resin</li>
             </ul>
         </div>
-        <div class="products-keycaps">
+        <div class="products">
             <div class="panel">
                 <img src="./assets/KeyCapProducts/bobaFettKeyCap.webp" alt="Boba Fett Key Cap" style="height: 250px; width: 250px;">
                 <h4>Boba Fett Key Cap</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/KeyCapProducts/grootKeyCap.webp" alt="Groot Key Cap" style="height: 250px; width: 250px;">
                 <h4>Groot Key Cap</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/KeyCapProducts/pikachuKeyCap.webp" alt="Pikachu Key Cap" style="height: 250px; width: 250px;">
                 <h4>Pikachu Key Cap</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
                 <img src="./assets/KeyCapProducts/pokeballKeyCap.webp" alt="Pokeball Key Cap" style="height: 250px; width: 250px;">
                 <h4>Poke Ball Key Cap</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
         </div>
     </section>
 
     <!-- Mouse Pads -->
 
-    <section>
-        <div class="description-mats">
+    <section class="mouse-pads">
+        <div class="container" id="description-mats">
             <h3>CustomKeyboardz Exclusive Designs</h3>
             <h1>Desk Mats and Mouse Pads</h1>
             <p>Take your setup to the next level with intricate and never before seen designs, or add the perfect accent piece to an already astonishing keyboard build!</p>
@@ -136,33 +139,35 @@
                 <li>New Designs Released Weekly</li>
             </ul>
         </div>
-        <div class="products-mats">
+        <div class="products">
             <div class="panel">
-                <img src="./assets/DeskMatProducts/glitchedMousePad.webp" alt="Glitched Mouse Pad">
+                <img src="./assets/DeskMatProducts/glitchedMousePad.webp" alt="Glitched Mouse Pad" style="height: 250px;">
                 <h4>Glitched Mouse Pad</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
-                <img src="./assets/DeskMatProducts/mightyMousePad.webp" alt="Mighty Mouse Pad">
+                <img src="./assets/DeskMatProducts/mightyMousePad.webp" alt="Mighty Mouse Pad" style="height: 250px;">
                 <h4>Mighty Mouse Pad</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
-                <img src="./assets/DeskMatProducts/neonFutureMousePad.webp" alt="Neon Future Mouse Pad">
+                <img src="./assets/DeskMatProducts/neonFutureMousePad.webp" alt="Neon Future Mouse Pad" style="height: 250px;">
                 <h4>Neon Future Mouse Pad</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
             <div class="panel">
-                <img src="./assets/DeskMatProducts/plantLifeMousePad.webp" alt="Plant Life Mouse Pad">
+                <img src="./assets/DeskMatProducts/plantLifeMousePad.webp" alt="Plant Life Mouse Pad" style="height: 250px;">
                 <h4>Plant Life Mouse Pad</h4>
-                <button>Add To Cart</button>
+                <button class="cart-button">Add To Cart</button>
             </div>
         </div>
     </section>
+
     <!-- footer -->
+    
     <footer>
         <img src="./assets/CustomKeyboardzLogos/customKeyboardzLogoBlack.png" alt="Custom Keyboardz Logo" style="height: 100px;">
-        <div class="page-links">
+        <div id="page-links" class="footer-navs">
             <h5>Useful Links</h5>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -170,7 +175,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="product-links">
+        <div id="product-links" class="footer-navs">
             <h5>Our Collection</h5>
             <ul>
                 <li><a href="#">Shop All</a></li>
@@ -180,7 +185,7 @@
                 <li><a href="#">Artisan Keycaps</a></li>
             </ul>
         </div>
-        <form class="newsletter">
+        <form id="newsletter" class="footer-navs">
             <h5>Newsletter</h5>
             <p>
                 <label for="name">Name 

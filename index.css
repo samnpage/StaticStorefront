@@ -1,11 +1,162 @@
+/* Common Elements */
+
 body {
+    padding: 0;
+    margin: 0;
     background-color: white;
+    font-family: sans-serif;
 }
+
+h1 {
+    color: red;
+    font-size: 3.5em;
+    margin-top: .5em;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+}
+
+div p {
+    color: white;
+    margin: 2.5em 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: disc;
+    color: white;
+    margin: .5em 0
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
 
 header {
     background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.social-media-icons {
-    display: inline;
+/* Nav Bars */
+
+nav ul {
+    margin: 0 .5em 0 .5em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 .6em 0 0;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+#navMenu {
+    font-size: 1em;
+    color: white;
+    padding-right: -2em;
+    float: left;
+}
+
+#socialIcons {
+    float: right;
+}
+
+
+/* Main Section */
+
+.container {
+    padding: 325px 40% 325px 25%;
+    background-color: darkgray;
+}
+
+#custom-keyboards-description {
+    background-image: linear-gradient(to bottom, rgba(84, 84, 84, 0.8) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.65) 100%), url(./assets/SectionBackgrounds/redZechKeyboard), linear-gradient(grey, darkgray);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+div button {
+    color: white;
+    background-color: red;
+    height: 3em;
+    width: 10em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+#description-cables {
+    background-image: linear-gradient(to bottom, rgba(84, 84, 84, 0.8) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.65) 100%), url(./assets/SectionBackgrounds/bluePinkOrbitCables);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#description-keycaps {
+    background-image: linear-gradient(to bottom, rgba(84, 84, 84, 0.8) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.65) 100%), url(./assets/SectionBackgrounds/skullKeyCap);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#description-mats {
+    background-image: linear-gradient(to bottom, rgba(84, 84, 84, 0.8) 0%, rgba(0, 0,0, 0.8) 50%, rgba(0, 0, 0, 0.65) 100%), url(./assets/SectionBackgrounds/glitchyDeskMat);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 5em;
+}
+
+.panel {
+    margin: 0 2.5em;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 2em;
+    text-align: center;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    background-color: grey;
+    color: white;
+}
+
+.footer-navs {
+    margin: 0 5em;
+}
+
+#page-links {
+    margin-left: 50%;
 }
