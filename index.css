@@ -24,7 +24,6 @@ ul {
 }
 
 li {
-    list-style: none;
     color: white;
     margin: .5em 0
 }
@@ -32,6 +31,11 @@ li {
 a{
     color: white;
     text-decoration: none;
+}
+
+.product-prices {
+    margin-top: 2em;
+    font-size: 1.5em;
 }
 
 /* Header */
@@ -92,6 +96,16 @@ nav li a:hover {
     line-height: 1.7em;
 }
 
+.container ul {
+    display: inline-block;
+    margin: 0 10px 0 1.5em;
+}
+
+.container li {
+    list-style-image: url(./assets/NavIcons/redArrow.png);
+    
+}
+
 #custom-keyboards-description {
     background-image: linear-gradient(to bottom, rgba(84, 84, 84, 0.8) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 1) 100%), url(./assets/SectionBackgrounds/redZechKeyboard);
     background-repeat: no-repeat;
@@ -146,8 +160,6 @@ div button:hover {
     background-attachment: fixed;
 }
 
-
-
 .products {
     display: flex;
     justify-content: center;
@@ -164,6 +176,10 @@ div button:hover {
     color: black;
 }
 
+.panel img:hover {
+    cursor: pointer;
+}
+
 /* Footer */
 
 footer {
@@ -171,7 +187,6 @@ footer {
     justify-content: center;
     background-color: grey;
     color: white;
-    
 }
 
 h5 {
@@ -181,7 +196,10 @@ h5 {
 
 .footer-navs {
     margin: 0 6em;
-    
+}
+
+footer li {
+    list-style: none;
 }
 
 input {
