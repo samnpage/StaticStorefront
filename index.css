@@ -34,7 +34,7 @@ a{
 }
 
 .product-prices {
-    margin-top: 2em;
+    margin: 1em 0 0 0;
     font-size: 1.5em;
 }
 
@@ -167,11 +167,11 @@ div button:hover {
 }
 
 .panel {
-    margin: 0 2.5em;
+    margin: 0 1em;
     background-color: whitesmoke;
     border: solid 2px black;
     border-radius: 25px;
-    padding: 2em;
+    padding: 2em 4em;
     text-align: center;
     color: black;
 }
