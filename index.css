@@ -206,6 +206,8 @@ input {
     height: 2.5em;
     border: none;
     border-radius: 5px;
+    width: 225px;
+    padding-left: 10px;
 }
 
 form button {
@@ -230,5 +232,4 @@ footer a:hover {
 
 #copyright {
     background-color: black;
-
 }
