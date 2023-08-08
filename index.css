@@ -227,3 +227,8 @@ form button:hover {
 footer a:hover {
     text-decoration: underline;
 }
+
+#copyright {
+    background-color: black;
+
+}
